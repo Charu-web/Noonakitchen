@@ -10,20 +10,11 @@ const Menupage = () => {
   return (
     <div className="bg-[black]">
       <Hero />
-
       <PricingCards />
-
       <StatsBar />
-
       <DoctorConsultation />
-
       <CustojmMarquee/>
-
-      
-
       <Footer />
     </div>
   );
 };
-
-export default Menupage;
