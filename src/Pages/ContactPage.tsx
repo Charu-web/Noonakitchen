@@ -2,7 +2,7 @@ import ContactHero from "../components/ContactHero";
 import ContactCards from "../components/ContactCards";
 import ContactMap from "../components/ContactMap";
 
-import CustojmMarquee from "../components/CustomMarquee";
+import CustomMarquee from "../components/CustomMarquee";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 
@@ -15,9 +15,9 @@ const ContactPage = () => {
 
       <ContactMap />
 
-      <CustojmMarquee/>
+      <CustomMarquee />
 
-      
+      <CTASection />
 
       <Footer />
     </>
