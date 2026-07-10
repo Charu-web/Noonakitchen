@@ -11,11 +11,8 @@ const ContactHero = () => {
         </div>
 
         <h1 className="text-white text-[72px] leading-[78px] font-bold mt-8">
-          Let's Connect &
-          <br />
-          <span className="text-[#f8aa00]">
-            Create Your Perfect Bowl.
-          </span>
+          Get in
+          <span className="text-[#f8aa00]"> Touch</span>
         </h1>
 
         <p className="text-gray-400 max-w-2xl mx-auto mt-8 text-lg">
