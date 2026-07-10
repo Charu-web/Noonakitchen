@@ -1,25 +1,28 @@
-import PricingCards from "../components/PricingCards";
-import CustojmMarquee from "../components/CustomMarquee";
-import StatsBar from "../components/StatsBar";
-import DoctorConsultation from "../components/DoctorConsultation";
+import Navbar from "../components/Navbar";
+import MenuHero from "../components/MenuHero";
+import CategoryFilters from "../components/CategoryFilters";
+import SignatureBowls from "../components/SignatureBowls";
+import SidesDrinks from "../components/SidesDrinks";
+import CustomMarquee from "../components/CustomMarquee";
 import CTASection from "../components/CTASection";
-import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 
 const Menupage = () => {
   return (
-    <div className="bg-[black]">
-      <Hero />
+    <div className="bg-black">
+      <Navbar />
 
-      <PricingCards />
+      <MenuHero />
 
-      <StatsBar />
+      <CategoryFilters />
 
-      <DoctorConsultation />
+      <SignatureBowls />
 
-      <CustojmMarquee/>
+      <SidesDrinks />
 
-      
+      <CustomMarquee />
+
+      <CTASection />
 
       <Footer />
     </div>
