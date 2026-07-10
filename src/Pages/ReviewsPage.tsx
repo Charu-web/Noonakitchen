@@ -3,7 +3,7 @@ import RatingSummary from "../components/RatingSummary";
 import FeaturedReviews from "../components/FeaturedReviews";
 import CommunityReviews from "../components/CommunityReviews";
 
-import CustojmMarquee from "../components/CustomMarquee";
+import CustomMarquee from "../components/CustomMarquee";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 
@@ -18,9 +18,9 @@ const ReviewsPage = () => {
 
       <CommunityReviews />
 
-      <CustojmMarquee/>
+      <CustomMarquee />
 
-      
+      <CTASection />
 
       <Footer />
     </>
